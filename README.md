@@ -22,8 +22,7 @@ Integrantes: Juan Esteban Barrantes, Juan Camilo Ordoñez, Miguel Andrés Rodrí
 •	Centros de investigación en economía del transporte
 •	Ciudadanía en general
 
-
-4. Estrategia Técnica
+3. Estrategia Técnica
 •	Técnicas a utilizar: El proyecto se enmarca en la Ciencia de Datos y el Aprendizaje Supervisado, específicamente en un problema de clasificación binaria.
 Se utilizará análisis exploratorio de datos (EDA), procesamiento para a limpieza de datos, validación cruzada para evitar sobreajuste, etc. Modelos de aprendizaje supervisado para regresión logística, arboles de decisión, random forest. Evaluación de modelos para matriz de confusión, accuracy, precisión y recall. Análisis de importancia de variables para comparación entre relevancia estadística e importancia predictiva.
 
@@ -32,6 +31,8 @@ Se utilizará análisis exploratorio de datos (EDA), procesamiento para a limpie
 •	Desbalance de clases: Es probable que los accidentes con muertos representen una proporción menor respecto a los accidentes con heridos, lo cual puede afectar el desempeño de los modelos. 
 •	Alta dimensionalidad categórica: Variables como marca, modelo o municipio pueden generar un alto número de categorías, lo que requiere técnicas eficientes de codificación
 •	Variables omitidas: No se cuenta con información directa sobre velocidad, condiciones climáticas o infraestructura vial específica, por lo que los efectos territoriales capturan factores estructurales no observados.
+
+
 5. Variables Clave:
    
 1.	Variable dependiente:

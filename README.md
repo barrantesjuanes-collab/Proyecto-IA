@@ -13,7 +13,7 @@ Integrantes: Juan Esteban Barrantes, Juan Camilo Ordoñez, Miguel Andrés Rodrí
 2.	Planeación y gestión territorial: El análisis de diferencias regionales puede contribuir a priorizar inversiones en infraestructura vial o fortalecer estrategias locales de seguridad.
 3.	Metodología aplicada: El proyecto ejemplifica la aplicación de ciencia de datos e inteligencia artificial en economía, mostrando cómo los modelos predictivos pueden complementar el análisis econométrico tradicional en la toma de decisiones públicas.
 
-   
+
 2. Análisis de Stakeholders
    
 •	Ministerio de Transporte de Colombia
@@ -42,7 +42,7 @@ Se utilizará análisis exploratorio de datos (EDA), procesamiento para a limpie
 
 5.  Variables Clave:
    
-1.	Variable dependiente:
+1. 	Variable dependiente:
 -	1=Con muertos
 -	0=Con heridos
 2.	Variables independientes:

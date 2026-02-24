@@ -1,0 +1,1 @@
+Desarrollar un modelo con los factores vehiculares y territoriales que determinan un accidente de tránsito con victimas mortales. Además, se busca comparar el desempeño productivo y la interpretación de modelos econométricos tradicionales frente a modelos avanzados de machine learning.

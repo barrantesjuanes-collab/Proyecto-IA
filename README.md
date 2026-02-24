@@ -23,10 +23,11 @@ Integrantes: Juan Esteban Barrantes, Juan Camilo Ordoñez, Miguel Andrés Rodrí
 •	Ciudadanía en general
 
 3. Estrategia Técnica
+   
 •	Técnicas a utilizar: El proyecto se enmarca en la Ciencia de Datos y el Aprendizaje Supervisado, específicamente en un problema de clasificación binaria.
 Se utilizará análisis exploratorio de datos (EDA), procesamiento para a limpieza de datos, validación cruzada para evitar sobreajuste, etc. Modelos de aprendizaje supervisado para regresión logística, arboles de decisión, random forest. Evaluación de modelos para matriz de confusión, accuracy, precisión y recall. Análisis de importancia de variables para comparación entre relevancia estadística e importancia predictiva.
 
-   4. Desafíos identificados
+4. Desafíos identificados
 •	Sesgo de selección: La base no incluye accidentes sin víctimas, por lo que el análisis se restringe a la probabilidad condicional de fatalidad dado que ocurrió un accidente con víctimas. Esto limita la posibilidad de inferir riesgo total poblacional
 •	Desbalance de clases: Es probable que los accidentes con muertos representen una proporción menor respecto a los accidentes con heridos, lo cual puede afectar el desempeño de los modelos. 
 •	Alta dimensionalidad categórica: Variables como marca, modelo o municipio pueden generar un alto número de categorías, lo que requiere técnicas eficientes de codificación

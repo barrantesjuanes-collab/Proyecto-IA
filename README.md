@@ -13,6 +13,7 @@ Integrantes: Juan Esteban Barrantes, Juan Camilo Ordoñez, Miguel Andrés Rodrí
 
    
 2. Análisis de Stakeholders
+   
 •	Ministerio de Transporte de Colombia
 •	Agencia Nacional de Seguridad Vial
 •	Secretarías de Movilidad departamentales y municipales
@@ -22,7 +23,7 @@ Integrantes: Juan Esteban Barrantes, Juan Camilo Ordoñez, Miguel Andrés Rodrí
 •	Ciudadanía en general
 
 
-3. Estrategia Técnica
+4. Estrategia Técnica
 •	Técnicas a utilizar: El proyecto se enmarca en la Ciencia de Datos y el Aprendizaje Supervisado, específicamente en un problema de clasificación binaria.
 Se utilizará análisis exploratorio de datos (EDA), procesamiento para a limpieza de datos, validación cruzada para evitar sobreajuste, etc. Modelos de aprendizaje supervisado para regresión logística, arboles de decisión, random forest. Evaluación de modelos para matriz de confusión, accuracy, precisión y recall. Análisis de importancia de variables para comparación entre relevancia estadística e importancia predictiva.
 

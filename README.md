@@ -1,57 +1,117 @@
-Título del Proyecto: Determinantes estructurales  de la fatalidad en accidentes de tránsito con víctimas en Colombia: un enfoque econométrico y de aprendizaje automático
-Integrantes: Juan Esteban Barrantes, Juan Camilo Ordoñez, Miguel Andrés Rodríguez 
- 
-1. Definición del Problema y Objetivos
-   
-•	Objetivo: Desarrollar un modelo con los factores vehiculares y territoriales que determinan un accidente de tránsito con victimas mortales. Además, se busca comparar el desempeño productivo y la interpretación de modelos econométricos tradicionales frente a modelos avanzados de machine learning.
+🚗 Determinantes estructurales de la fatalidad en accidentes de tránsito con víctimas en Colombia
+Un enfoque econométrico y de aprendizaje automático
+👥 Integrantes
+Juan Esteban Barrantes
+Juan Camilo Ordoñez
+Miguel Andrés Rodríguez
+📌 Descripción del Proyecto
 
-•	Descripción: La seguridad vial constituye un problema económico y social de alta relevancia, debido a los costos humanos, productivos y fiscales asociados a la siniestralidad. Desde la economía del riesgo, los accidentes de tránsito pueden entenderse como eventos asociados a decisiones individuales, calidad del capital vehicular y condiciones estructurales del entorno.
+La seguridad vial constituye uno de los principales problemas económicos y sociales en Colombia debido a los costos humanos, productivos y fiscales asociados a la siniestralidad vial.
 
-•	Entrega de Valor: El proyecto genera valor en tres dimensiones:
+Desde la economía del riesgo, los accidentes de tránsito pueden entenderse como eventos relacionados con:
 
-1.	Política pública: Permite identificar factores asociados a mayor probabilidad de fatalidad, lo cual puede orientar políticas de regulación vehicular, revisión técnico-mecánica, control a motocicletas o focalización territorial de intervenciones.
-2.	Planeación y gestión territorial: El análisis de diferencias regionales puede contribuir a priorizar inversiones en infraestructura vial o fortalecer estrategias locales de seguridad.
-3.	Metodología aplicada: El proyecto ejemplifica la aplicación de ciencia de datos e inteligencia artificial en economía, mostrando cómo los modelos predictivos pueden complementar el análisis econométrico tradicional en la toma de decisiones públicas.
+decisiones individuales,
+calidad del capital vehicular,
+condiciones estructurales del territorio,
+y factores institucionales asociados al control y regulación vial.
 
+Este proyecto busca aplicar herramientas de:
 
-2. Análisis de Stakeholders
-   
-•	Ministerio de Transporte de Colombia
-•	Agencia Nacional de Seguridad Vial
-•	Secretarías de Movilidad departamentales y municipales
-•	Autoridades de tránsito
-•	Aseguradoras
-•	Centros de investigación en economía del transporte
-•	Ciudadanía en general
+📊 econometría,
+🤖 machine learning,
+📈 análisis de datos,
+🧠 inteligencia artificial,
 
-3. Estrategia Técnica
-   
-•	Técnicas a utilizar: El proyecto se enmarca en la Ciencia de Datos y el Aprendizaje Supervisado, específicamente en un problema de clasificación binaria.
-Se utilizará análisis exploratorio de datos (EDA), procesamiento para a limpieza de datos, validación cruzada para evitar sobreajuste, etc. Modelos de aprendizaje supervisado para regresión logística, arboles de decisión, random forest. Evaluación de modelos para matriz de confusión, accuracy, precisión y recall. Análisis de importancia de variables para comparación entre relevancia estadística e importancia predictiva.
+para identificar los factores asociados a una mayor probabilidad de fatalidad en accidentes de tránsito con víctimas en Colombia.
 
-4. Desafíos identificados
-   
-•	Sesgo de selección: La base no incluye accidentes sin víctimas, por lo que el análisis se restringe a la probabilidad condicional de fatalidad dado que ocurrió un accidente con víctimas. Esto limita la posibilidad de inferir riesgo total poblacional
+🎯 Objetivo General
 
-•	Desbalance de clases: Es probable que los accidentes con muertos representen una proporción menor respecto a los accidentes con heridos, lo cual puede afectar el desempeño de los modelos. 
+Desarrollar modelos predictivos que permitan identificar los factores vehiculares, temporales y territoriales asociados a la probabilidad de que un accidente de tránsito resulte fatal.
 
-•	Alta dimensionalidad categórica: Variables como marca, modelo o municipio pueden generar un alto número de categorías, lo que requiere técnicas eficientes de codificación
+Adicionalmente, se busca comparar:
 
-•	Variables omitidas: No se cuenta con información directa sobre velocidad, condiciones climáticas o infraestructura vial específica, por lo que los efectos territoriales capturan factores estructurales no observados.
+modelos econométricos tradicionales,
+y modelos avanzados de aprendizaje automático,
 
+evaluando tanto:
 
-5.  Variables Clave:
-   
-1. 	Variable dependiente:
--	1=Con muertos
--	0=Con heridos
-2.	Variables independientes:
--	Características vehiculares:
-- Marca
-- Modelo
-- Tipo de vehiculo
-- Edad de vehiculo
--	Características temporales 
+su capacidad predictiva,
+como su interpretación económica.
+💡 Relevancia Económica y Social
+
+Los accidentes de tránsito generan impactos significativos sobre:
+
+el sistema de salud,
+la productividad laboral,
+las finanzas públicas,
+y el bienestar social.
+
+Por ello, comprender los determinantes de la fatalidad vial puede contribuir al diseño de políticas públicas más eficientes y focalizadas.
+
+🚦 Entrega de Valor
+🏛 Política pública
+
+El proyecto permite identificar factores asociados a mayor riesgo de fatalidad, contribuyendo a:
+
+regulación vehicular,
+revisión técnico-mecánica,
+control sobre motocicletas,
+focalización territorial de intervenciones.
+🗺 Planeación territorial
+
+El análisis regional permite:
+
+identificar departamentos críticos,
+priorizar inversiones en infraestructura vial,
+fortalecer estrategias locales de seguridad vial.
+🤖 Ciencia de datos aplicada a economía
+
+El proyecto muestra cómo:
+
+la inteligencia artificial,
+el machine learning,
+y la ciencia de datos
+
+pueden complementar el análisis econométrico tradicional en la toma de decisiones públicas.
+
+🧩 Stakeholders
+
+Los principales actores interesados en los resultados del proyecto son:
+
+🚘 Ministerio de Transporte de Colombia
+🚦 Agencia Nacional de Seguridad Vial
+🏙 Secretarías de Movilidad departamentales y municipales
+👮 Autoridades de tránsito
+🏥 Aseguradoras
+📚 Centros de investigación en economía del transporte
+👥 Ciudadanía en general
+🗃 Fuentes de Datos
+
+El proyecto utiliza bases de datos oficiales relacionadas con:
+
+vehículos involucrados en accidentes,
+sectores críticos de siniestralidad,
+exceso de velocidad,
+características territoriales,
+y condiciones viales.
+📊 Variables del Modelo
+🎯 Variable Dependiente
+Variable	Descripción
+Fatalidad	1 = Con muertos / 0 = Con heridos
+🚗 Variables Independientes
+Características vehiculares
+Marca del vehículo
+Modelo del vehículo
+Tipo de vehículo
+Edad del vehículo
+📅 Características temporales
+Fecha del accidente
+Mes
+Año
+🌎 Características territoriales
+Departamento
+Municipio
+Autoridad de tránsito
 - Fecha del accidente
 -	Caracteristicas territoriales 
 -Departamento

@@ -156,13 +156,3 @@ Departamento
 Municipio
 
 Autoridad de tránsito
-
-- Fecha del accidente
-  
--	Caracteristicas territoriales
-  
--Departamento
-
--Municipio
-
--Autoridad de tránsito

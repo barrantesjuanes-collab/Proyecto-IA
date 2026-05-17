@@ -106,13 +106,15 @@ Los principales actores interesados en los resultados del proyecto son:
 
 🗃 Fuentes de Datos
 
-El proyecto utiliza bases de datos oficiales relacionadas con:
+El proyecto utiliza una base de datos de accidentes de tránsito en Colombia que contiene información asociada a:
 
-vehículos involucrados en accidentes,
-sectores críticos de siniestralidad,
-exceso de velocidad,
-características territoriales,
-y condiciones viales.
+características vehiculares,
+
+severidad del accidente,
+
+ubicación territorial,
+
+y temporalidad de los siniestros
 
 📊 Variables del Modelo
 
@@ -145,6 +147,7 @@ Fecha del accidente
 Mes
 
 Año
+
 🌎 Características territoriales
 
 Departamento
